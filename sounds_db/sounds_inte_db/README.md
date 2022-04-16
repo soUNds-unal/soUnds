@@ -1,5 +1,5 @@
 # Instructions
-Puerto TCP a usar: 3306.
+Puerto TCP a usar: 3301.
 1. Crear la imagen Docker, ejecutando dentro del mismo directorio el siguiente comando: `docker build -t sounds_inte_db .`
 
 2. Desplegar la base de datos, mediante el siguiente comando:
