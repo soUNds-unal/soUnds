@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ccmorenov/microservicesounds/bd"
-	"github.com/ccmorenov/microservicesounds/jwt"
-	"github.com/ccmorenov/microservicesounds/models"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/jwt"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/models"
 )
 
 func Login(w http.ResponseWriter, r *http.Request) {

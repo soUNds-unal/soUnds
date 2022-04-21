@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/ccmorenov/microservicesounds/bd"
-	"github.com/ccmorenov/microservicesounds/handlers"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/handlers"
 )
 
 func main() {

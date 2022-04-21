@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ccmorenov/microservicesounds/middlew"
-	"github.com/ccmorenov/microservicesounds/routes"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/middlew"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/routes"
 )
 
 /* Manejadores*/

@@ -1,7 +1,7 @@
 package bd
 
 import (
-	"github.com/ccmorenov/microservicesounds/models"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

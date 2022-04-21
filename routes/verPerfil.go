@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ccmorenov/microservicesounds/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
 )
 
 func VerPerfil(w http.ResponseWriter, r *http.Request) {

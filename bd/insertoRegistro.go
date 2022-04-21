@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ccmorenov/microservicesounds/models"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

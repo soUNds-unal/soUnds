@@ -3,7 +3,7 @@ package middlew
 import (
 	"net/http"
 
-	"github.com/ccmorenov/microservicesounds/routes"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/routes"
 )
 
 func ValidateJWT(next http.HandlerFunc) http.HandlerFunc {

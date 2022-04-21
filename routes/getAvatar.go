@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/ccmorenov/microservicesounds/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
 )
 
 func GetAvatar(w http.ResponseWriter, r *http.Request) {

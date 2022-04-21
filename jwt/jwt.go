@@ -3,8 +3,8 @@ package jwt
 import (
 	"time"
 
-	"github.com/ccmorenov/microservicesounds/models"
 	jwt "github.com/dgrijalva/jwt-go"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/models"
 )
 
 func GeneroJWT(t models.Usuario) (string, error) {

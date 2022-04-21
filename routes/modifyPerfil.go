@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ccmorenov/microservicesounds/bd"
-	"github.com/ccmorenov/microservicesounds/models"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/models"
 )
 
 func ModifyPerfil(w http.ResponseWriter, r *http.Request) {

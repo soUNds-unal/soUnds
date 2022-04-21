@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/ccmorenov/microservicesounds/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
 )
 
 func EliminarUser(w http.ResponseWriter, r *http.Request) {

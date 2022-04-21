@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ccmorenov/microservicesounds/bd"
-	"github.com/ccmorenov/microservicesounds/models"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/bd"
+	"github.com/soUNds-unal/sounds/sounds_ms/sounds_auth_ms/models"
 )
 
 func UploadAvatar(w http.ResponseWriter, r *http.Request) {
