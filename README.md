@@ -1,4 +1,4 @@
-# sounds_inte_ms
+# sounds_inte
 Sounds interaction microservice.
 * Base de Datos sounds_inte_db (MySQL): 
   * `puerto 3301`
