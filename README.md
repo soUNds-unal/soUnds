@@ -1,5 +1,5 @@
 # sounds_inte
-Sounds interaction microservice.
+Sounds interaction component.
 * Base de Datos sounds_inte_db (MySQL): 
   * `puerto 3301`
 * Microservicio sounds_inte_ms (JavaScript + API-REST): 
