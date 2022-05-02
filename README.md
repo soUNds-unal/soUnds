@@ -2,7 +2,8 @@
 Sounds interaction component.
 * Base de Datos sounds_inte_db (MySQL): 
   * `puerto 3301`
+  *  Etiqueta imagen docker: `sounds_inte_db`
+  *  Etiqueta phpmyadmin imagen docker: `sounds_inte_db_phpmyadmin`
 * Microservicio sounds_inte_ms (JavaScript + API-REST): 
   * `puerto 3302`
-* API Gateway   sounds_inte_ag (JavaScript + Node.js + API-GraphQL): 
-  * `puerto 3303`
+  *  Etiqueta imagen docker: `sounds_inte_ms`
