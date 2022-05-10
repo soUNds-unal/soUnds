@@ -10,7 +10,7 @@ Puerto TCP a usar: 3301.
 
 3. Desplegar el cliente web de MySQL PhpMyAdmin, mediante el siguiente comando:
 
-        docker run --name db_inte -d --link sounds_inte_db:db -p 8081:80 phpmyadmin
+        docker run --name phpmyadmin -d --link sounds_inte_db:db -p 8081:80 phpmyadmin
 
 4. Acceder a la base de datos, usando el cliente PhpMyAdmin, mediante el navegador
 web: http://localhost:8081.
