@@ -31,18 +31,26 @@ Puerto TCP a usar: 3301.
 
        docker container start sounds_inte_db
 
-3. Desplegar el cliente web de MySQL PhpMyAdmin, mediante el siguiente comando:
+4. (Omitir paso si ya se creó el container —chequear con `docker ps -a`) 
+
+   Desplegar el cliente web de MySQL PhpMyAdmin, mediante el siguiente comando:
 
         docker run --name phpmyadmin -d --link sounds_inte_db:db -p 8081:80 phpmyadmin
+        
+5. (Omitir paso si ya está corriendo container —chequear con `docker ps`) 
 
-4. Acceder a la base de datos, usando el cliente PhpMyAdmin, mediante el navegador
+   Correr container:
+
+       docker container start phpmyadmin        
+        
+6. Acceder a la base de datos, usando el cliente PhpMyAdmin, mediante el navegador
 web: http://localhost:8081.
 
-5. Iniciar sesión usando las credenciales definidas en el Dockerfile de la imagen de la base de datos.
+7. Iniciar sesión usando las credenciales definidas en el Dockerfile de la imagen de la base de datos.
   * `Username: sounds_inte`
   * `Password: 2022`
 
-6. Crear una tabla de prueba y realizar inserciones y consultas a la base de datos.
+8. Crear una tabla de prueba y realizar inserciones y consultas a la base de datos.
 
 
 ## INSTRUCCIONES DESPLEGAR sounds_inte_ms
