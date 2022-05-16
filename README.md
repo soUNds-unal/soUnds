@@ -69,7 +69,7 @@ Puerto TCP a usar: 3302.
    
    Construir (build) container:
 
-        docker run --name sounds_inte_ms -p 3302:3302 -e DB_HOST=172.17.0.3 -e DB_PORT=3301 -e DB_USER=sounds_inte -e DB_PASSWORD=2022 -e DB_NAME=sounds_inte_db -e URL=0.0.0.0:3302 sounds_inte_ms
+        docker run --name sounds_inte_ms -p 3302:3302 -e DB_HOST=172.17.0.2 -e DB_PORT=3301 -e DB_USER=sounds_inte -e DB_PASSWORD=2022 -e DB_NAME=sounds_inte_db -e URL=0.0.0.0:3302 sounds_inte_ms
 
 3. (Omitir paso si ya está corriendo container —chequear con `docker ps`) 
 
