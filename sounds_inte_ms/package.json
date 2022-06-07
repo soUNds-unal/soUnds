@@ -1,18 +1,16 @@
 {
   "name": "sounds_inte_ms",
   "version": "1.0.0",
-  "description": "Puerto TCP a usar: 3301.\r 1. Crear la imagen Docker, ejecutando dentro del mismo directorio el siguiente comando:\r `docker build -t swarch2022i_db .`\r 2. Desplegar la base de datos, mediante el siguiente comando:\r `docker run -d -t -i -p 3306:3306 --name swarch2022i_db swarch2022i_db`\r 3. Desplegar el cliente web de MySQL PhpMyAdmin, mediante el siguiente comando:\r `docker run --name db_client -d --link swarch2022i_db:db -p 8081:80 phpmyadmin`\r 4. Acceder a la base de datos, usando el cliente PhpMyAdmin, mediante el navegador\r web: http://localhost:8081.\r 5. Iniciar sesión usando las credenciales definidas en el Dockerfile de la imagen de la base de datos.\r 6. Crear una tabla de prueba y realizar inserciones y consultas a la base de datos.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "sounds interaction microservice",
+  "author": "swarch2022i_2d",
+  "license": "MIT",
+  "main": "src/app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
   "dependencies": {
-    "body-parser": "^1.20.0",
-    "express": "^4.17.3",
-    "express-fileupload": "^1.3.1",
-    "mongoose": "^6.3.0"
+    "express": "^4.16.4"
   }
 }
